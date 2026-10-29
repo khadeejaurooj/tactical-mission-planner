@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "sample-islamabad-demo",
+  "name": "Islamabad Demo Route",
+  "description": "A fictional demo mission to try planning, simulation and JSON import/export.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "updatedAt": "2026-01-01T00:00:00.000Z",
+  "waypoints": [
+    { "id": "wp-start", "type": "start", "name": "Start", "lat": 33.7295, "lng": 73.0372, "radiusMeters": 0, "notes": "Staging point" },
+    { "id": "wp-alpha", "type": "waypoint", "name": "Checkpoint Alpha", "lat": 33.7245, "lng": 73.0425, "radiusMeters": 0, "notes": "" },
+    { "id": "wp-objective", "type": "objective", "name": "Objective", "lat": 33.7195, "lng": 73.0500, "radiusMeters": 0, "notes": "Hold position and report" },
+    { "id": "wp-bravo", "type": "waypoint", "name": "Checkpoint Bravo", "lat": 33.7150, "lng": 73.0580, "radiusMeters": 0, "notes": "" },
+    { "id": "wp-end", "type": "end", "name": "End", "lat": 33.7105, "lng": 73.0655, "radiusMeters": 0, "notes": "Extraction" },
+    { "id": "wp-hazard", "type": "hazard", "name": "Restricted Zone", "lat": 33.7222, "lng": 73.0472, "radiusMeters": 140, "notes": "Avoid if possible" }
+  ]
+}
